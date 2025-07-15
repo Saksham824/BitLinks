@@ -1,6 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import { useRouter } from "next/navigation";
+import Link from "next/link";
 
 export default function Home() {
   const router = useRouter();
@@ -83,7 +84,10 @@ export default function Home() {
           transition={{ delay: 1.4, type: "spring", stiffness: 100 }}
           className="bg-white text-purple-700 font-semibold px-8 py-3 rounded-full shadow-md hover:bg-yellow-200 transition"
         >
-          Shorten a Link
+          <div className="flex items-center gap-3">
+            Shorten your link here
+            <img className="w-4" src="arrow.png" alt="" />
+          </div>
         </motion.button>
       </motion.section>
 
@@ -143,12 +147,12 @@ export default function Home() {
       <section className="rounded-lg py-16 bg-gradient-to-r from-pink-500 via-yellow-400 to-white text-center text-black dark:text-white dark:from-pink-700 dark:via-yellow-500 dark:to-gray-800">
         <h2 className="text-3xl font-bold mb-4">Ready to get started?</h2>
         <p className="text-lg mb-6">Sign in and start shortening your links for free!</p>
-        <a
+        <Link
           href="/dashboard"
           className="bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-full shadow-md transition"
         >
-          Go to Dashboard
-        </a>
+          Learn more
+        </Link>
       </section>
     </main>
   );

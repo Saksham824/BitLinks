@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const ShortenPage = () => {
     const [url, setUrl] = useState("");
@@ -107,14 +108,14 @@ const ShortenPage = () => {
                         className="mt-10"
                     >
                         <p className="text-lg mb-2">Here’s your shortened link:</p>
-                        <a
+                        <Link
                             href={shortLink}
                             target="_blank"
                             rel="noopener noreferrer"
                             className="text-yellow-200 font-bold text-lg underline break-words"
                         >
                             {shortLink}
-                        </a>
+                        </Link>
                     </motion.div>
                 )}
 

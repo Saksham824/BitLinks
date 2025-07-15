@@ -21,15 +21,15 @@ const Footer = () => {
 
         {/* Social Icons */}
         <div className="flex space-x-4 text-lg">
-          <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="hover:text-gray-200 transition">
+          <Link href="https://github.com" target="_blank" rel="noopener noreferrer" className="hover:text-gray-200 transition">
             <FiGithub />
-          </a>
-          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="hover:text-gray-200 transition">
+          </Link>
+          <Link href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="hover:text-gray-200 transition">
             <FiTwitter />
-          </a>
-          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-gray-200 transition">
+          </Link>
+          <Link href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-gray-200 transition">
             <FiInstagram />
-          </a>
+          </Link>
         </div>
       </div>
     </footer>

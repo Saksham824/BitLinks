@@ -54,12 +54,13 @@ const Navbar = () => {
                     >
                         Shorten
                     </button>
-                    <Link
+                    <button
+                    target="_blank"
                         href='https://github.com/Saksham824'
                         className="text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 font-medium rounded-lg text-lg px-4 py-2 text-center"
                     >
                         GitHub
-                    </Link>
+                    </button>
                 </div>
 
                 {/* Mobile Menu Button */}
@@ -92,13 +93,13 @@ const Navbar = () => {
                         Shorten
                     </button>
 
-                    <Link
+                    <button
                         onClick={toggleMenu}
                         href='https://github.com/Saksham824'
                         className="w-full text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 font-medium rounded-lg text-lg px-5 py-2"
                     >
                         GitHub
-                    </Link>
+                    </button>
                 </div>
             )}
         </nav>
