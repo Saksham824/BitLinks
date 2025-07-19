@@ -7,7 +7,7 @@ export default function Home() {
   const router = useRouter();
 
   const handleShortenClick = () => {
-    router.push("/shorten"); // Redirect to shorten page
+    router.push("/shorten"); 
   };
 
   return (

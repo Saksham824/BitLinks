@@ -35,7 +35,7 @@ const ContactPage = () => {
           Contact <span className="text-yellow-200">Us</span>
         </h1>
         <p className="text-base sm:text-lg text-white/90 mb-8 max-w-xl mx-auto">
-          Have questions, feedback, or ideas? We'd love to hear from you. Fill out the form below!
+          Have questions, feedback, or ideas? We&apos;d love to hear from you. Fill out the form below!
         </p>
 
         <form onSubmit={handleSubmit} className="text-left space-y-6">

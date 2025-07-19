@@ -13,5 +13,4 @@ export default async function Page({params}){
     else{
         redirect(`${process.env.NEXT_PUBLIC_HOST}`)
     }
-    return <div></div>
 }

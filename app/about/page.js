@@ -21,7 +21,7 @@ const AboutPage = () => {
 
         <p className="text-base sm:text-lg text-white/90 mb-6">
           Shortify is your go-to URL shortening solution — helping you turn long, messy links into short,
-          sleek, and shareable URLs. Whether you're a marketer, developer, or just someone who loves
+          sleek, and shareable URLs. Whether you are a marketer, developer, or just someone who loves
           clean links, Shortify makes it easy and powerful.
         </p>
 
@@ -37,7 +37,7 @@ const AboutPage = () => {
           <div className="bg-white/10 p-4 sm:p-6 rounded-xl border border-white/20">
             <h3 className="text-xl font-semibold mb-2">🔒 Privacy First</h3>
             <p>
-              We don’t store or track personal data. Your links belong to you — and we ensure your privacy
+              We dont store or track personal data. Your links belong to you — and we ensure your privacy
               is always protected.
             </p>
           </div>
@@ -45,7 +45,7 @@ const AboutPage = () => {
           <div className="bg-white/10 p-4 sm:p-6 rounded-xl border border-white/20">
             <h3 className="text-xl font-semibold mb-2">🌍 Built for Everyone</h3>
             <p>
-              Whether you're an individual, startup, or enterprise, Shortify scales with you. Simple UX,
+              Whether you are an individual, startup, or enterprise, Shortify scales with you. Simple UX,
               powerful tools, all in one.
             </p>
           </div>

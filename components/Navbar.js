@@ -21,13 +21,12 @@ const Navbar = () => {
     ];
 
     const handleShortenClick = () => {
-    router.push("/shorten"); // Redirect to shorten page
+    router.push("/shorten"); 
   };
 
     return (
         <nav className="rounded-lg bg-gradient-to-r from-purple-600 via-pink-500 to-yellow-400 text-white fixed w-full z-50 shadow-lg">
             <div className="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
-                {/* Logo */}
                 <Link href="/" className="flex items-center space-x-2">
                     <Image className="rounded-3xl" src="/logo.png" alt="Logo" width={40} height={40} />
                     <span className="text-2xl font-bold tracking-wide drop-shadow-sm">
